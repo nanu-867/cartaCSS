@@ -2,18 +2,22 @@
 /* CSS Document */
 
 @font-face {
-	font-family: corbelb;
+	font-family: corbel;
 	src: url(../fonts/corbelb.ttf);
+	font-weight:bold;
 }
 
 @font-face {
 	font-family: corbel;
 	src: url(../fonts/corbel.ttf);
+	font-weight:normal;
 }
 
 @font-face {
-	font-family: corbeli;
+	font-family: corbel;
 	src: url(../fonts/corbeli.ttf);
+	font-weight:normal;
+	font-style: italic;
 }
 
 body {
@@ -28,12 +32,13 @@ body {
 	right: 10%;
 	top: 10px;
 	text-align: right;
-	font-family: corbeli;
+	font-family: corbel;
 	font-style: italic;
 }
 
 #data-reciever {
-	font-family: corbeli;
+	font-family: corbel;
+	font-style: italic;
 	position: relative;
 	top: 170px;
 }
@@ -46,11 +51,14 @@ body {
 }
 
 .bold {
-	font-family: corbelb;
+	font-family: corbel;
+	font-weight:bold;
+	
 }
 
 .italic {
-	font-family: corbeli;
+	font-family: corbel;
+	font-style: italic;
 }
 
 .underline {
@@ -69,12 +77,14 @@ body {
 
 h1 {
 	position: relative;
-	font-family: corbelb;
+	font-family: corbel;
+	font-weight:bold;
 	font-size: 20px;
 }
 
 h2 {
-	font-family: corbelb;
+	font-family: corbel;
+	font-weight:bold;
 	font-size: 18px;
 	margin-top: 20px ;
 }
